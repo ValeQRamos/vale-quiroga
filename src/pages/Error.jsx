@@ -1,6 +1,11 @@
+import { Link } from "react-router-dom"
+
 const Error = () => {
   return (
-    <h1>Error</h1>
+    <div>
+      <h1>404</h1>
+      <Link to='/'>Back to Home</Link>
+    </div>
   )
 }
 export default Error
